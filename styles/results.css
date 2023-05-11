@@ -51,9 +51,9 @@
   align-items: center;
 }
 
-.results__text {
+/* .results__text {
   font-weight: 400;
-}
+} */
 
 .results__items {
   display: flex;
