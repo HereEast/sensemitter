@@ -1,0 +1,50 @@
+/* CTA */
+
+.action {
+  background-color: var(--violet);
+  padding: 80px 0;
+}
+
+.action__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--black);
+  padding: 20px 0;
+}
+
+.footer__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__item--copyright {
+  display: block;
+  text-align: right;
+  color: var(--white);
+}
+
+/**/
+/**/
+/**/
+
+@media all and (max-width: 760px) {
+  .footer__logo .logo {
+    width: 140px;
+    height: 30px;
+  }
+}
+
+@media all and (max-width: 460px) {
+  .action {
+    padding: 60px 0;
+  }
+}

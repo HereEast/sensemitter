@@ -1,0 +1,31 @@
+/* IMAGES */
+
+.hero__content--image,
+.conclusion__content--image {
+  animation: move-image 2s infinite forwards alternate linear;
+
+}
+
+@keyframes move-image {
+  from {
+    transform: rotate(2deg);
+  }
+  to {
+    transform: rotate(-2deg);
+  }
+}
+
+/* BUTTON */
+
+.button__action--link {
+  animation: button-back 0.785s infinite forwards alternate linear;
+}
+
+@keyframes button-back {
+  from {
+    background-color: #3de6ab;
+  }
+  to {
+    background-color: var(--light-mint);
+  }
+}
