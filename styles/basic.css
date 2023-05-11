@@ -148,7 +148,7 @@ footer {
 @media all and (max-width: 680px) {
   h1 {
     font-size: 42px;
-    line-height: 1.25;
+    /* line-height: 1.25; */
   }
 
   .content__col,

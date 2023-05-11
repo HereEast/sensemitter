@@ -29,3 +29,18 @@
     background-color: var(--light-mint);
   }
 }
+
+/* ICON */
+
+.ic--swipe {
+  animation: swipe 2s infinite forwards alternate linear;
+}
+
+@keyframes swipe {
+  from {
+    transform: translateX(5px);
+  }
+  to {
+    transform: translateX(-5px);
+  }
+}

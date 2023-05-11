@@ -97,6 +97,12 @@
 
 .results__table {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
   margin-top: 80px;
 }
 
@@ -108,6 +114,8 @@
   border-collapse: collapse;
   table-layout: fixed;
   overflow-x: scroll;
+
+  margin-bottom: 30px;
 }
 
 tbody {
@@ -155,9 +163,31 @@ td.data.highlighted {
   border-radius: 18px 0 0 0;
 }
 
+.table__icon {
+  display: none;
+  position: absolute;
+  bottom: -30px;
+}
+
+.ic--swipe {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../assets/swipe.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /**/
 /**/
 /**/
+
+@media all and (max-width: 840px) {
+  .table__icon {
+    display: block;
+  }
+}
 
 @media all and (max-width: 640px) {
   .logo__image {
